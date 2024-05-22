@@ -21,7 +21,7 @@ Turn the image into a link by surrounding it with necessary element tags. Use `h
 
 # --hints--
 
-You should have an `img` element with an `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
+You should have an `img` element with a `src` value of `https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg`. You may have accidentally deleted it.
 
 ```js
 assert(
@@ -55,7 +55,7 @@ You should only add one closing anchor (`a`) tag. Please remove any extras.
 assert(code.match(/<\/a>/g).length === 2);
 ```
 
-Your anchor (`a`) element does not have an `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
+Your anchor (`a`) element does not have a `href` attribute. Check that there is a space after the opening tag's name and/or there are spaces before all attribute names.
 
 ```js
 assert(document.querySelector('a').hasAttribute('href'));
